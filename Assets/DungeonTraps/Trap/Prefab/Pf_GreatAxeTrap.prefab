@@ -11,7 +11,11 @@ GameObject:
   - component: {fileID: 432086}
   - component: {fileID: 3332088}
   - component: {fileID: 2332088}
-  m_Layer: 0
+  - component: {fileID: 470908674}
+  - component: {fileID: 815318005}
+  - component: {fileID: 1223821075}
+  - component: {fileID: 40919615}
+  m_Layer: 14
   m_Name: GreatAxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -78,6 +82,62 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+--- !u!64 &470908674
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b9cb6abd86b0af442b58106bea0f3ebe, type: 3}
+--- !u!64 &815318005
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b9cb6abd86b0af442b58106bea0f3ebe, type: 3}
+--- !u!64 &1223821075
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b9cb6abd86b0af442b58106bea0f3ebe, type: 3}
+--- !u!64 &40919615
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 132086}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Convex: 0
+  m_CookingOptions: 14
+  m_Mesh: {fileID: 4300000, guid: b9cb6abd86b0af442b58106bea0f3ebe, type: 3}
 --- !u!1 &132088
 GameObject:
   m_ObjectHideFlags: 0
@@ -89,7 +149,7 @@ GameObject:
   - component: {fileID: 432088}
   - component: {fileID: 3332090}
   - component: {fileID: 2332090}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: GreatAxeRing
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -166,7 +226,7 @@ GameObject:
   m_Component:
   - component: {fileID: 432090}
   - component: {fileID: 11187624}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Pf_GreatAxeTrap
   m_TagString: Untagged
   m_Icon: {fileID: 0}
